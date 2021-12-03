@@ -16,9 +16,9 @@ End the program
 ### PROGRAM:
 ```
 import math
-l1=[10,6]
-l2=[4,2]
-value=math.sqrt(((l1[0]-l2[0])**2)-((l1[1]-l2[1])**2))
+x=[10,4]
+y=[6,2]
+value=math.sqrt(((x[0]-x[1])**2)+((y[0]-y[1])**2))
 print("{:.2f}".format(value))
 ```
   
